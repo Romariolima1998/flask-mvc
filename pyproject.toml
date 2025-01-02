@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "padroesdeprojeto"
+version = "0.1.0"
+description = ""
+authors = ["Romario lima <romariolima1006@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+splinter = {extras = ["flask"], version = "^0.21.0"}
+dynaconf = "^3.2.6"
+mvc-flask = "^2.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ward = "^0.68.0b0"
+python-dotenv = "^1.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
